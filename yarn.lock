@@ -6317,7 +6317,7 @@ __metadata:
     husky: "npm:^9.1.7"
     lint-staged: "npm:^15.3.0"
     nestjs-otel: "npm:^6.1.1"
-    nestjs-prisma: "npm:^0.23.0"
+    nestjs-prisma: "npm:^0.24.0"
     prisma: "npm:^6.1.0"
     reflect-metadata: "npm:^0.2.2"
     rxjs: "npm:^7.8.1"
@@ -6344,18 +6344,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nestjs-prisma@npm:^0.23.0":
-  version: 0.23.0
-  resolution: "nestjs-prisma@npm:0.23.0"
+"nestjs-prisma@npm:^0.24.0":
+  version: 0.24.0
+  resolution: "nestjs-prisma@npm:0.24.0"
   dependencies:
     "@angular-devkit/core": "npm:^13.3.0"
     "@angular-devkit/schematics": "npm:^13.3.0"
     "@schematics/angular": "npm:~13.3.0"
   peerDependencies:
     "@nestjs/common": ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
-    "@prisma/client": ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
-    prisma: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
-  checksum: 10c0/a91286c0abf0767cf8076f1e687139aa67b038e0918f4ac934cca16a45bdf7b27967b0a6eda350587795e89f576c569afc9af1be67608d4ab5b3e8b1762f54b0
+    "@prisma/client": ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
+    prisma: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
+  checksum: 10c0/3b15adaf7b20fc97c6bf0bdf71a586ea09cbacd90c1c24b6f801606f3aef6ea5ec053fdce7772eb7a0bdd58386ecaf317f91a175d49088d1572eee438cf86f0e
   languageName: node
   linkType: hard
 

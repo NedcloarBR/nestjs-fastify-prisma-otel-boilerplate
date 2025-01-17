@@ -1133,9 +1133,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/swagger@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "@nestjs/swagger@npm:8.1.0"
+"@nestjs/swagger@npm:^8.1.1":
+  version: 8.1.1
+  resolution: "@nestjs/swagger@npm:8.1.1"
   dependencies:
     "@microsoft/tsdoc": "npm:^0.15.0"
     "@nestjs/mapped-types": "npm:2.0.6"
@@ -1157,7 +1157,7 @@ __metadata:
       optional: true
     class-validator:
       optional: true
-  checksum: 10c0/67cdf2fe3608d3145e03a861e4c1a685d36617b9daa2e79949250b348756d07fd4b765bebc36fe55748c3abeabf21846dcd99c13c88833e4aaea22e81c772329
+  checksum: 10c0/d79439d72f8c81821ca3ffa9d8f01e63e34ca627f0dd1462626d3361410b178f49d303977d21cbf4edcc519acbcfc8dc8afabe8d060c33bf7077cad4e272173d
   languageName: node
   linkType: hard
 
@@ -6292,7 +6292,7 @@ __metadata:
     "@nestjs/core": "npm:^10.4.15"
     "@nestjs/platform-fastify": "npm:^10.4.15"
     "@nestjs/schematics": "npm:^10.2.3"
-    "@nestjs/swagger": "npm:^8.1.0"
+    "@nestjs/swagger": "npm:^8.1.1"
     "@nestjs/terminus": "npm:^10.2.3"
     "@nestjs/testing": "npm:^10.4.15"
     "@opentelemetry/api": "npm:^1.9.0"

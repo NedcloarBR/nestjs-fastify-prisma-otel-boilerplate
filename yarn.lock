@@ -1150,20 +1150,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/swagger@npm:^8.1.1":
-  version: 8.1.1
-  resolution: "@nestjs/swagger@npm:8.1.1"
+"@nestjs/swagger@npm:^11.0.0":
+  version: 11.0.0
+  resolution: "@nestjs/swagger@npm:11.0.0"
   dependencies:
     "@microsoft/tsdoc": "npm:^0.15.0"
     "@nestjs/mapped-types": "npm:2.0.6"
     js-yaml: "npm:4.1.0"
     lodash: "npm:4.17.21"
-    path-to-regexp: "npm:3.3.0"
+    path-to-regexp: "npm:^8.2.0"
     swagger-ui-dist: "npm:5.18.2"
   peerDependencies:
-    "@fastify/static": ^6.0.0 || ^7.0.0
-    "@nestjs/common": ^9.0.0 || ^10.0.0
-    "@nestjs/core": ^9.0.0 || ^10.0.0
+    "@fastify/static": ^8.0.0
+    "@nestjs/common": ^11.0.1
+    "@nestjs/core": ^11.0.1
     class-transformer: "*"
     class-validator: "*"
     reflect-metadata: ^0.1.12 || ^0.2.0
@@ -1174,7 +1174,7 @@ __metadata:
       optional: true
     class-validator:
       optional: true
-  checksum: 10c0/d79439d72f8c81821ca3ffa9d8f01e63e34ca627f0dd1462626d3361410b178f49d303977d21cbf4edcc519acbcfc8dc8afabe8d060c33bf7077cad4e272173d
+  checksum: 10c0/d3c5a17b21e70665228a15353ebc28505c634d244d0bdd34696ec640693b9d0f6facfb2d3c7734c55baac8f77f96a232d10b8a9e5dbe2fcbe33c50476d00e729
   languageName: node
   linkType: hard
 
@@ -6316,7 +6316,7 @@ __metadata:
     "@nestjs/core": "npm:^10.4.15"
     "@nestjs/platform-fastify": "npm:^10.4.15"
     "@nestjs/schematics": "npm:^10.2.3"
-    "@nestjs/swagger": "npm:^8.1.1"
+    "@nestjs/swagger": "npm:^11.0.0"
     "@nestjs/terminus": "npm:^10.2.3"
     "@nestjs/testing": "npm:^10.4.15"
     "@opentelemetry/api": "npm:^1.9.0"
@@ -6660,6 +6660,13 @@ __metadata:
   version: 6.3.0
   resolution: "path-to-regexp@npm:6.3.0"
   checksum: 10c0/73b67f4638b41cde56254e6354e46ae3a2ebc08279583f6af3d96fe4664fc75788f74ed0d18ca44fa4a98491b69434f9eee73b97bb5314bd1b5adb700f5c18d6
+  languageName: node
+  linkType: hard
+
+"path-to-regexp@npm:^8.2.0":
+  version: 8.2.0
+  resolution: "path-to-regexp@npm:8.2.0"
+  checksum: 10c0/ef7d0a887b603c0a142fad16ccebdcdc42910f0b14830517c724466ad676107476bba2fe9fffd28fd4c141391ccd42ea426f32bb44c2c82ecaefe10c37b90f5a
   languageName: node
   linkType: hard
 

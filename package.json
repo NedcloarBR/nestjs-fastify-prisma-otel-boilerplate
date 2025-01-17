@@ -52,7 +52,7 @@
 		"@opentelemetry/sdk-node": "^0.57.0",
 		"@opentelemetry/sdk-trace-base": "^1.30.0",
 		"@opentelemetry/semantic-conventions": "^1.28.0",
-		"@prisma/client": "^6.1.0",
+		"@prisma/client": "^6.2.1",
 		"@sesamecare-oss/opentelemetry-node-metrics": "^1.1.0",
 		"axios": "^1.7.9",
 		"class-transformer": "^0.5.1",

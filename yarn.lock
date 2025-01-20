@@ -1391,6 +1391,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@opentelemetry/core@npm:1.30.1":
+  version: 1.30.1
+  resolution: "@opentelemetry/core@npm:1.30.1"
+  dependencies:
+    "@opentelemetry/semantic-conventions": "npm:1.28.0"
+  peerDependencies:
+    "@opentelemetry/api": ">=1.0.0 <1.10.0"
+  checksum: 10c0/4c25ba50a6137c2ba9ca563fb269378f3c9ca6fd1b3f15dbb6eff78eebf5656f281997cbb7be8e51c01649fd6ad091083fcd8a42dd9b5dfac907dc06d7cfa092
+  languageName: node
+  linkType: hard
+
 "@opentelemetry/exporter-logs-otlp-grpc@npm:0.57.0":
   version: 0.57.0
   resolution: "@opentelemetry/exporter-logs-otlp-grpc@npm:0.57.0"
@@ -2131,7 +2142,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/propagator-b3@npm:1.30.0, @opentelemetry/propagator-b3@npm:^1.30.0":
+"@opentelemetry/propagator-b3@npm:1.30.0":
   version: 1.30.0
   resolution: "@opentelemetry/propagator-b3@npm:1.30.0"
   dependencies:
@@ -2139,6 +2150,17 @@ __metadata:
   peerDependencies:
     "@opentelemetry/api": ">=1.0.0 <1.10.0"
   checksum: 10c0/2378d9527247982ad09c08f51b90364913640a72519df3b65fbd694a666f4e13ce035b3a42d3651f5d707e85b3f48b7837e4aa50fbbfe3fcb8f6af47e0af5c34
+  languageName: node
+  linkType: hard
+
+"@opentelemetry/propagator-b3@npm:^1.30.1":
+  version: 1.30.1
+  resolution: "@opentelemetry/propagator-b3@npm:1.30.1"
+  dependencies:
+    "@opentelemetry/core": "npm:1.30.1"
+  peerDependencies:
+    "@opentelemetry/api": ">=1.0.0 <1.10.0"
+  checksum: 10c0/aeeaa6325e2d970a207a396b98562e05578688ffd047e64544c441456702c593a74b614216c0360ee0f63bb7c3cf39b63f74c0f59c8580a1aac067970cee9bc2
   languageName: node
   linkType: hard
 
@@ -6325,7 +6347,7 @@ __metadata:
     "@opentelemetry/core": "npm:^1.30.0"
     "@opentelemetry/exporter-prometheus": "npm:^0.57.0"
     "@opentelemetry/exporter-trace-otlp-http": "npm:^0.57.0"
-    "@opentelemetry/propagator-b3": "npm:^1.30.0"
+    "@opentelemetry/propagator-b3": "npm:^1.30.1"
     "@opentelemetry/resources": "npm:^1.30.0"
     "@opentelemetry/sdk-node": "npm:^0.57.0"
     "@opentelemetry/sdk-trace-base": "npm:^1.30.0"

@@ -1,5 +1,14 @@
 {
-	"cSpell.words": ["biomejs", "fastify", "Fastify", "nestjs"],
+	"cSpell.words": [
+    "biomejs",
+    "fastify",
+    "Fastify",
+    "nestjs",
+    "opentelemetry",
+    "otlp",
+    "prometheus",
+    "sesamecare"
+  ],
 	"search.exclude": {
 		"**/.yarn": true,
 		"**/.pnp.*": true
@@ -9,5 +18,8 @@
 	"editor.codeActionsOnSave": {
 		"quickfix.biome": "explicit",
 		"source.organizeImports.biome": "explicit"
-	}
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
 }

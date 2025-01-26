@@ -1,9 +1,11 @@
 import { Controller, Get } from "@nestjs/common";
+//biome-ignore lint/style/useImportType: Cannot useImportType in classes used in Dependency Injection
 import {
 	HealthCheck,
 	HealthCheckService,
 	PrismaHealthIndicator,
 } from "@nestjs/terminus";
+//biome-ignore lint/style/useImportType: Cannot useImportType in classes used in Dependency Injection
 import { PrismaService } from "nestjs-prisma";
 
 @Controller("health")

@@ -2928,15 +2928,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:^6.2.1":
-  version: 6.2.1
-  resolution: "@prisma/client@npm:6.2.1"
+"@prisma/client@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "@prisma/client@npm:6.3.0"
   peerDependencies:
     prisma: "*"
+    typescript: ">=5.1.0"
   peerDependenciesMeta:
     prisma:
       optional: true
-  checksum: 10c0/d6313da2408f2034bfcda1fa3500e6e9fdf13b8ca68d0f31804d6e540e9fedfd4c556bd2258488e5928fa383e5e3a43aa6469c819f8f8bed6250ef983feee5f6
+    typescript:
+      optional: true
+  checksum: 10c0/b26dc188cf904cf29af7bf3b2ff5a92a034d43f813bcbf5a2e0f37d2fe4fedda69fc42afad3ff83ecfa71c7a43c70bef06c0a1fae80efb3659c126f15a2c02f4
   languageName: node
   linkType: hard
 
@@ -6621,7 +6624,7 @@ __metadata:
     "@opentelemetry/sdk-node": "npm:^0.57.1"
     "@opentelemetry/sdk-trace-base": "npm:^1.30.1"
     "@opentelemetry/semantic-conventions": "npm:^1.28.0"
-    "@prisma/client": "npm:^6.2.1"
+    "@prisma/client": "npm:^6.3.0"
     "@sesamecare-oss/opentelemetry-node-metrics": "npm:^1.1.0"
     "@types/node": "npm:^22.10.10"
     "@vitest/coverage-v8": "npm:^3.0.4"

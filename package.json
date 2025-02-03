@@ -37,7 +37,7 @@
 		"@nestjs/axios": "^4.0.0",
 		"@nestjs/common": "^11.0.5",
 		"@nestjs/config": "^4.0.0",
-		"@nestjs/core": "^11.0.5",
+		"@nestjs/core": "^11.0.7",
 		"@nestjs/platform-fastify": "^11.0.5",
 		"@nestjs/swagger": "^11.0.3",
 		"@nestjs/terminus": "^11.0.0",
